@@ -18,8 +18,8 @@ String jsonRlyInfo;  // Global variable for relay information JSON
 
 // WiFi configuration with multiple options
 const int NUM_NETWORKS = 2;
-const char* ssids[NUM_NETWORKS] = {"AAAAAA", "Backup_Network"};
-const char* passwords[NUM_NETWORKS] = {"159357mgm@", "backup_password"};
+const char* ssids[NUM_NETWORKS] = {"Wi-fi", "Backup_Network"};
+const char* passwords[NUM_NETWORKS] = {"Wi-fi-senha", "backup_password"};
 
 // NTP server configuration with more reliable settings
 const char* ntpServer = "pool.ntp.org";
